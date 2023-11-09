@@ -7,6 +7,8 @@ import Interests from "./components/Interests";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Tech from "./components/Tech";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function App() {
 

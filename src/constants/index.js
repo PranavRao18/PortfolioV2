@@ -24,6 +24,7 @@ import {
     tripguide,
     threejs,
   } from "../assets/assets";
+  import icons from "./Icons";
   
   export const navLinks = [
     {
@@ -46,24 +47,24 @@ import {
   
   const services = [
     {
-      title: "Web Development",
-      icon: web,
-      content: "I'm passionate about crafting the digital world through web development, and I specialize in the MERN stack (MongoDB, Express.js, React, Node.js). I enjoy building responsive and user-friendly websites that not only look great but also deliver exceptional user experiences. From front-end design to back-end functionality, I'm constantly exploring the ever-evolving world of web technologies to create meaningful online solutions."
+      title: "WEB DEVELOPMENT",
+      icon: icons.react,
+      content: "I'm passionate about crafting the digital world through web development, and I specialize in the MERN stack (MongoDB, Express.js, React, Node.js). I enjoy building responsive and user-friendly websites that look great and deliver exceptional user experiences."
     },
     {
-      title: "Competitive Programming",
-      icon: backend,
-      content: "I thrive on the challenge of Competitive Programming. Solving complex algorithmic problems, optimizing code for efficiency, conquering coding competitions, and contributing to open-source projects are not just hobbies; they're a passion. I enjoy the intellectual rigor and the continuous learning involved in mastering data structures and algorithms."
+      title: "COMPETITIVE PROGRAMMING",
+      icon: icons.laptop,
+      content: "I thrive on the challenge of Competitive Programming. Solving complex algorithmic problems, optimizing code for efficiency, conquering coding competitions, and contributing to open-source projects are not just hobbies; they're a passion."
     },
     {
-      title: "App Development",
-      icon: mobile,
-      content: "I'm enthusiastic about mobile app development with a strong focus on Flutter and Dart. I love creating cross-platform, visually appealing applications that offer seamless experiences. The Flutter framework's flexibility and Dart's power empower me to bring innovative app ideas to life, reaching a broad audience on both Android and iOS platforms."
+      title: "APP DEVELOPMENT",
+      icon: icons.mobile,
+      content: "I'm enthusiastic about mobile app development with a strong focus on Flutter and Dart. I love creating cross-platform, visually appealing applications that offer seamless experiences. The Flutter framework's flexibility empowers me to bring innovative app ideas to life."
     },
     {
       title: "UI/UX",
-      icon: creator,
-      content: "I'm fascinated by the art and science of User Interface (UI) and User Experience (UX) design. Even though not an expert in this field, im highly interested to learn more. Crafting visually appealing and user-centered interfaces is my passion. I believe in the power of aesthetic design, combined with functionality, to create digital experiences that are not only beautiful but also highly usable and enjoyable for users."
+      icon: icons.layout,
+      content: "I'm fascinated by the art and science of User Interface (UI) and User Experience (UX) design. Even though not proficient in this field, I'm highly interested to learn more. Crafting visually appealing and user-centered interfaces is my passion. "
     },
   ];
   
@@ -206,66 +207,35 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
+      name: "Wheel-E",
+      subdescription: "An electric-vehicles exclusive taxi service website which is fully functional for both users and drivers.",
+      description: "In a 24-hour hackathon, my team of four developed a transportation project for the theme Sustainable Development Goals. The website features user-friendly Login and SignUp pages, including one for drivers. It calculates the shortest route between pickup and drop locations using APIs, offers cost estimates for various transport modes, and allows users to book vehicles. Upon booking, drivers receive notifications and can accept, leading to automatic redirection to the user's location.",
+      tags: ["HTML", "CSS", "TailwindCSS", "JavaScript"],
       image: carrent,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
+      name: "GeoCrisis",
+      subdescription: "GeoCrisis is a real-time mapping application that provides immediate insights into global crises.",
+      description: "GeoCrisis stands as a sophisticated and user-friendly real-time mapping application specifically crafted to provide instant, accurate, and visually immersive insights into crises and emergencies occurring worldwide. Leveraging cutting-edge technology, this platform is meticulously designed to serve as a comprehensive and pivotal tool for emergency responders, humanitarian organizations, governmental bodies, and the general public. GeoCrisis is instrumental in providing vital information and a spatial understanding of ongoing and evolving crises, ranging from natural disasters to social conflicts, health emergencies, and more.",
+      tags: ["HTML", "CSS", "BootStrap", "JavaScript", "Django"],
+      image: carrent,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
+      name: "cli-Mate",
+      subdescription: "A weather mobile-app which notifies you in-case of too high/ low temperatures.",
+      description: "Contributed significantly to the development of a cross-platform mobile application using Flutter, ensuring accessibility for both iOS and Android users. Held responsibility for front-end development, focusing on designing user interfaces and implementing core functionalities. Expertly integrated the Flutter framework, Dio for API communication, and Flutter Secure Storage for efficient data persistence. With the help of my teammates, used Django for backend framework.",
+      tags: ["Flutter", "Dart"],
+      image: carrent,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "PortFolio",
+      subdescription: "A website to showcase my skills, projects, achievements and experiences.",
+      description: "A curated digital showcase of my work and achievements, reflecting my skills and experiences in a visually engaging manner. It encompasses diverse projects, educational background, and personal interests, allowing visitors to explore my capabilities. This website serves as a valuable tool for potential employers, collaborators, or educational institutions to gain insights into my expertise and achievements. Through its user-friendly design, it offers a clear and structured representation of my talents and provides a convenient means to connect with me.",
+      tags: ["ReactJS", "TailwindCSS"],
+      image: carrent,
       source_code_link: "https://github.com/",
     },
   ];

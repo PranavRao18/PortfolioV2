@@ -19,14 +19,14 @@ function Navbar() {
                         window.scrollTo(0, 0);
                     }}
                 >
-                    <p className="text-white text-[18px] font-medium cursor-pointer">Pranav <span className="text-amber-300">Rao</span></p>
+                    <p className="text-white text-[22px] font-medium cursor-pointer">Pranav <span className="text-amber-300">Rao</span></p>
                 </Link>
                 <ul className='list-none hidden sm:flex flex-row gap-10'>
                     {navLinks.map((nav) => (
                         <li
                             key={nav.id}
                             className={`${active === nav.title ? "text-white" : "text-secondary"
-                                } hover:text-white text-[18px] font-light cursor-pointer`}
+                                } hover:text-white text-[22px] font-light cursor-pointer`}
                             onClick={() => setActive(nav.title)}
                         >
                             <a href={`#${nav.id}`}>{nav.title}</a>

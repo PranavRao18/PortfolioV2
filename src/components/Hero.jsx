@@ -23,10 +23,10 @@ function Hero() {
     }, []);
 
     return (
-        <section className="relative w-screen mx-auto bg-primary h-max min-h-screen">
+        <section className="relative w-screen mx-auto h-max min-h-screen m-0 bg-cover bg-center custom-hero">
             <div className="flex flex-col justify-center items-center">
                 <div className={`${styles.paddingX} absolute inset-0 top-[100px] mx-w-7xl mx-auto flex flex-row justify-between items-center flex-wrap gap-0`}>
-                    <div className={`flex-1 flex flex-col items-start justify-center gap-5 `}>
+                    <div className={`flex-1 sm:pt-24 md:pt-px flex flex-col items-start justify-center gap-5 `}>
                         <h1 className={`${styles.heroHeadText} text-white font-thin`}> Hello, I'm <br /><span className={`text-[#eeb639] ${isMobile? 'text-6xl' : 'text-8xl'} font-bold`}>Pranav Rao</span></h1>
                         <p className={`${styles.heroSubText} mt-2 text-white-100`}>A Student, a Web Developer and ML Enthusiast</p>
                         <div className="w-80 sm:w-200 h-1 golden-gradient mt-5"></div>
@@ -35,7 +35,7 @@ function Hero() {
                         <ComputersCanvas />
                     </div>
                 </div>
-                <div className={`absolute bottom-10 w-full flex justify-center items-center`}>
+                <div className={`absolute bottom-10 w-full flex justify-center items-center z-2`}>
                     <a href="#interests">
                         <div className={`w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2`}>
                             <motion.dev
