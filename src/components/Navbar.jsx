@@ -9,8 +9,8 @@ function Navbar() {
     const [toggle, setToggle] = useState(false);
 
     return (
-        <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
-            <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+        <nav className={`${styles.paddingX} w-full flex items-center py-10 fixed top-0 z-20 bg-primary`}>
+            <div className="w-full flex justify-between items-center mx-auto">
                 <Link
                     to="/"
                     className="flex items-center gap-2"
@@ -19,14 +19,14 @@ function Navbar() {
                         window.scrollTo(0, 0);
                     }}
                 >
-                    <p className="text-white text-[18px] font-bold cursor-pointer">Pranav <span className="text-amber-300">Rao</span></p>
+                    <p className="text-white text-[18px] font-medium cursor-pointer">Pranav <span className="text-amber-300">Rao</span></p>
                 </Link>
                 <ul className='list-none hidden sm:flex flex-row gap-10'>
                     {navLinks.map((nav) => (
                         <li
                             key={nav.id}
                             className={`${active === nav.title ? "text-white" : "text-secondary"
-                                } hover:text-white text-[18px] font-medium cursor-pointer`}
+                                } hover:text-white text-[18px] font-light cursor-pointer`}
                             onClick={() => setActive(nav.title)}
                         >
                             <a href={`#${nav.id}`}>{nav.title}</a>
