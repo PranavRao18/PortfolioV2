@@ -46,20 +46,24 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Web Development",
       icon: web,
+      content: "I'm passionate about crafting the digital world through web development, and I specialize in the MERN stack (MongoDB, Express.js, React, Node.js). I enjoy building responsive and user-friendly websites that not only look great but also deliver exceptional user experiences. From front-end design to back-end functionality, I'm constantly exploring the ever-evolving world of web technologies to create meaningful online solutions."
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
+      title: "Competitive Programming",
       icon: backend,
+      content: "I thrive on the challenge of Competitive Programming. Solving complex algorithmic problems, optimizing code for efficiency, conquering coding competitions, and contributing to open-source projects are not just hobbies; they're a passion. I enjoy the intellectual rigor and the continuous learning involved in mastering data structures and algorithms."
     },
     {
-      title: "Content Creator",
+      title: "App Development",
+      icon: mobile,
+      content: "I'm enthusiastic about mobile app development with a strong focus on Flutter and Dart. I love creating cross-platform, visually appealing applications that offer seamless experiences. The Flutter framework's flexibility and Dart's power empower me to bring innovative app ideas to life, reaching a broad audience on both Android and iOS platforms."
+    },
+    {
+      title: "UI/UX",
       icon: creator,
+      content: "I'm fascinated by the art and science of User Interface (UI) and User Experience (UX) design. Even though not an expert in this field, im highly interested to learn more. Crafting visually appealing and user-centered interfaces is my passion. I believe in the power of aesthetic design, combined with functionality, to create digital experiences that are not only beautiful but also highly usable and enjoyable for users."
     },
   ];
   
