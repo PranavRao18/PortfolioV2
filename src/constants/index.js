@@ -217,7 +217,7 @@ import {
     {
       name: "GeoCrisis",
       subdescription: "GeoCrisis is a real-time mapping application that provides immediate insights into global crises.",
-      description: "GeoCrisis stands as a sophisticated and user-friendly real-time mapping application specifically crafted to provide instant, accurate, and visually immersive insights into crises and emergencies occurring worldwide. Leveraging cutting-edge technology, this platform is meticulously designed to serve as a comprehensive and pivotal tool for emergency responders, humanitarian organizations, governmental bodies, and the general public. GeoCrisis is instrumental in providing vital information and a spatial understanding of ongoing and evolving crises, ranging from natural disasters to social conflicts, health emergencies, and more.",
+      description: "GeoCrisis stands as a sophisticated and user-friendly real-time mapping application specifically crafted to provide instant, accurate, and visually immersive insights into crises and emergencies occurring worldwide. Leveraging cutting-edge technology, this platform is meticulously designed to serve as a comprehensive and pivotal tool for emergency responders, humanitarian organizations, governmental bodies, and the general public.",
       tags: ["HTML", "CSS", "BootStrap", "JavaScript", "Django"],
       image: carrent,
       source_code_link: "https://github.com/",
