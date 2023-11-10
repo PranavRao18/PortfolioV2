@@ -1,12 +1,11 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import Contacts from "./components/Contacts";
-import Education from "./components/Education";
+import About from "./components/About";
 import Hero from "./components/Hero";
 import Interests from "./components/Interests";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
-import Tech from "./components/Tech";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
@@ -21,8 +20,7 @@ function App() {
         </div>
         <Interests />
         <Projects />
-        <Education />
-        <Tech />
+        <About />
         <Contacts />
       </div>
     </BrowserRouter>
