@@ -126,24 +126,24 @@ import {
   const education = [
     {
       title: "BMS College of Engineering",
-      degree: "Bachelor of Engineering",
+      degree: "B.E. in Computer Science",
       place_name: "Bangalore",
       date: "November 2022 - 2026",
-      grade: "9.75 CGPA(current)"
+      grade: "CGPA: 9.75 (current)"
     },
     {
       title: "CFAL India",
       degree: "Class XII",
       place_name: "Mangalore",
       date: "April 2020 - May 2022",
-      grade: "96.33%"
+      grade: "Percentage: 96.33%"
     },
     {
       title: "Shriniketana School",
       degree: "Class X",
       place_name: "Sirsi",
       date: "June 2008 - March 2020",
-      grade: "96%"
+      grade: "Percentage: 96%"
     },
   ];
   

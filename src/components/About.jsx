@@ -1,5 +1,6 @@
 import React from "react";
 import Education from "./Education";
+import Tech from "./Tech";
 import { motion } from 'framer-motion';
 import { styles } from "../styles";
 import { fadeIn, textVariant } from '../utils/motion';
@@ -13,8 +14,9 @@ const About = () => {
                 <h2 className={`${styles.sectionHeadText} text-center`}>About Me</h2>
             </motion.div>
             <Education />
+            <Tech />
         </div>
     )
 }
 
-export default SectionWrapper(About);
+export default SectionWrapper(About, "about");
