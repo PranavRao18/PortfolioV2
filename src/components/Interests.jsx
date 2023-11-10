@@ -9,7 +9,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const ServiceCard = ({ index, title, icon, content}) => {
     return (
-        <Tilt className="max-w-xl">
+        <Tilt className="max-w-xl gap-10">
             <motion.div
                 variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
                 className="orange-yellow-gradient p-[2px] rounded-[20px] shadow-card"
