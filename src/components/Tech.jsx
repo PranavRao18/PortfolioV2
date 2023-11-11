@@ -2,7 +2,7 @@ import React from "react";
 import { styles } from "../styles";
 import { motion } from 'framer-motion';
 import { technologies } from '../constants';
-import { textVariant } from "../utils/motion";
+import { fadeIn, textVariant } from '../utils/motion';
 
 function Tech() {
     return (
@@ -11,11 +11,14 @@ function Tech() {
                 <p className={`${styles.sectionSubText} text-center mt-20`}>WHAT I KNOW</p>
                 <h2 className={`${styles.sectionHeadText} text-center`}>Languages, Tools and Frameworks</h2>
             </motion.div>
-            <div className="flex flex-row justify-center items-center">
-                {technologies.map((tech) => (
-                    <div className='w-28 h-28 px-2' key={tech.name}>
+            <div className="flex flex-row justify-center items-center flex-wrap py-20 px-10 sm:px-80 gap-5">
+                {technologies.map((tech, index) => (
+                    <motion.div
+                        variants={fadeIn("right", "spring", 0.2 * index, 5)}
+                        className='w-28 h-28 px-2' key={tech.name}
+                    >
                         <img src={tech.icon} />
-                    </div>
+                    </motion.div>   
                 ))}
             </div>
         </div>
