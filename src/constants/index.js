@@ -1,28 +1,22 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
-    jobit,
-    tripguide,
     threejs,
+    CodeHunt,
+    Devsprints,
+    Leetcode,
+    Codechef,
+    Wheele,
+    Geocrisis,
+    Climate,
+    Portfolio
   } from "../assets/assets";
   import icons from "./Icons";
   
@@ -172,40 +166,13 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
   const projects = [
     {
       name: "Wheel-E",
       subdescription: "An electric-vehicles exclusive taxi service website which is fully functional for both users and drivers.",
       description: "In a 24-hour hackathon, my team of four developed a transportation project for the theme Sustainable Development Goals. The website features user-friendly Login and SignUp pages, including one for drivers. It calculates the shortest route between pickup and drop locations using APIs, offers cost estimates for various transport modes, and allows users to book vehicles. Upon booking, drivers receive notifications and can accept, leading to automatic redirection to the user's location.",
       tags: ["HTML", "CSS", "TailwindCSS", "JavaScript"],
-      image: carrent,
+      image: Wheele,
       source_code_link: "https://github.com/",
     },
     {
@@ -213,7 +180,7 @@ import {
       subdescription: "GeoCrisis is a real-time mapping application that provides immediate insights into global crises.",
       description: "GeoCrisis stands as a sophisticated and user-friendly real-time mapping application specifically crafted to provide instant, accurate, and visually immersive insights into crises and emergencies occurring worldwide. Leveraging cutting-edge technology, this platform is meticulously designed to serve as a comprehensive and pivotal tool for emergency responders, humanitarian organizations, governmental bodies, and the general public.",
       tags: ["HTML", "CSS", "BootStrap", "JavaScript", "Django"],
-      image: carrent,
+      image: Geocrisis,
       source_code_link: "https://github.com/",
     },
     {
@@ -221,7 +188,7 @@ import {
       subdescription: "A weather mobile-app which notifies you in-case of too high/ low temperatures.",
       description: "Contributed significantly to the development of a cross-platform mobile application using Flutter, ensuring accessibility for both iOS and Android users. Held responsibility for front-end development, focusing on designing user interfaces and implementing core functionalities. Expertly integrated the Flutter framework, Dio for API communication, and Flutter Secure Storage for efficient data persistence. With the help of my teammates, used Django for backend framework.",
       tags: ["Flutter", "Dart"],
-      image: carrent,
+      image: Climate,
       source_code_link: "https://github.com/",
     },
     {
@@ -229,9 +196,54 @@ import {
       subdescription: "A website to showcase my skills, projects, achievements and experiences.",
       description: "A curated digital showcase of my work and achievements, reflecting my skills and experiences in a visually engaging manner. It encompasses diverse projects, educational background, and personal interests, allowing visitors to explore my capabilities. This website serves as a valuable tool for potential employers, collaborators, or educational institutions to gain insights into my expertise and achievements. Through its user-friendly design, it offers a clear and structured representation of my talents and provides a convenient means to connect with me.",
       tags: ["ReactJS", "TailwindCSS"],
-      image: carrent,
+      image: Portfolio,
       source_code_link: "https://github.com/",
     },
   ];
+
+  const achievements = [
+    {
+      image: Devsprints,
+      title: 'Runner Up',
+      subtitle: 'in Devsprints Hackathon',
+      text: 'A 24 hour National Level Hackathon organized by BMSCE IEEE Computer Society',
+      link: Devsprints
+    },
+    {
+      image: CodeHunt,
+      title: 'First Place',
+      subtitle: 'in CodeHunt 2.1 Code-a-thon',
+      text: 'A college level Code-a-thon organized by BMSCE IEEE Computer Society',
+      link: CodeHunt
+    },
+    {
+      image: 'public/herobg.png',
+      title: 'Finalist',
+      subtitle: 'in Hack AI Hackathon',
+      text: 'A national level Hackathon organized by TechFest IIT Bombay\'23',
+      link: ''
+    },
+    {
+      image: 'public/herobg.png',
+      title: 'Finalist',
+      subtitle: 'in Hack It Out Hackathon',
+      text: 'A national level Hackathon organized by IIT Patna during Celesta\'23',
+      link: ''
+    },
+    {
+      image: Leetcode,
+      title: 'LeetCode',
+      subtitle: 'Profile',
+      text: 'Max Rating: 1597 | Problems Solved: 200+',
+      link: 'https://leetcode.com/pranavrao/'
+    },
+    {
+      image: Codechef,
+      title: 'CodeChef',
+      subtitle: 'Profile',
+      text: '3⭐ | Max Rating: 1636 | Problems Solved: 150+',
+      link: 'https://www.codechef.com/users/pranavrao18'
+    },
+  ]
   
-  export { services, technologies, education, testimonials, projects };
+  export { services, technologies, education, achievements, projects };

@@ -46,4 +46,4 @@ function Education() {
     )
 }
 
-export default Education;
+export default SectionWrapper(Education);

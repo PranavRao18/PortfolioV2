@@ -30,6 +30,16 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import CodeHunt from "./CodeHunt.png";
+import Devsprints from "./Devsprints.png";
+import Leetcode from "./Leetcode.png";
+import Codechef from "./Codechef.png";
+
+import Wheele from "./Wheele.png";
+import Geocrisis from "./Geocrisis.png";
+import Climate from "./climate.png";
+import Portfolio from "./Portfolio.png";
+
 export {
   logo,
   backend,
@@ -59,4 +69,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  CodeHunt,
+  Devsprints,
+  Codechef,
+  Leetcode,
+  Wheele,
+  Climate,
+  Geocrisis,
+  Portfolio
 };

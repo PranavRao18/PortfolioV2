@@ -3,6 +3,7 @@ import { styles } from "../styles";
 import { motion } from 'framer-motion';
 import { technologies } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
+import { SectionWrapper } from "../hoc";
 
 function Tech() {
     return (
@@ -14,7 +15,7 @@ function Tech() {
             <div className="flex flex-row justify-center items-center flex-wrap py-20 px-10 sm:px-80 gap-5">
                 {technologies.map((tech, index) => (
                     <motion.div
-                        variants={fadeIn("right", "spring", 0.2 * index, 5)}
+                        variants={fadeIn("right", "spring", 0.1 * index, 2)}
                         className='w-28 h-28 px-2' key={tech.name}
                     >
                         <img src={tech.icon} />
@@ -25,4 +26,4 @@ function Tech() {
     )
 }
 
-export default Tech;
+export default SectionWrapper(Tech);

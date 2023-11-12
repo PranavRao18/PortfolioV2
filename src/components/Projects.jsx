@@ -7,7 +7,7 @@ import { SectionWrapper } from "../hoc";
 import { projects } from '../constants';
 import { fadeIn, textVariant } from "../utils/motion";
 import { useTransform, useScroll } from 'framer-motion';
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 
 const ProjectCard = ({ index, project }) => {
     return (
@@ -47,7 +47,26 @@ function Projects() {
         target: targetRef,
     })
 
-    const x = useTransform(scrollYProgress, [0, 1], ["6%", "-72%"]);
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const mediaQuery = window.matchMedia("(max-width: 576px)");
+        setIsMobile(mediaQuery.matches);
+
+        const handleMediaQueryChange = (event) => {
+            setIsMobile(event.matches);
+        };
+
+        mediaQuery.addEventListener("change", handleMediaQueryChange);
+
+        return () => {
+            mediaQuery.removeEventListener("change", handleMediaQueryChange);
+        };
+    }, []);
+
+    const xvalue = isMobile ? ["2%", "-75%"] : ["6%", "-72%"];
+
+    const x = useTransform(scrollYProgress, [0, 1], xvalue);
 
     return (
         <section ref={targetRef} className="relative h-[400vh] bg-primary mt-100">

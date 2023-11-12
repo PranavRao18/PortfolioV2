@@ -7,6 +7,9 @@ import Interests from "./components/Interests";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import Education from "./components/Education";
+import Achievements from "./components/Achievements";
+import Tech from "./components/Tech";
 
 
 function App() {
@@ -21,6 +24,9 @@ function App() {
         <Interests />
         <Projects />
         <About />
+        <Education />
+        <Achievements />
+        <Tech />
         <Contacts />
       </div>
     </BrowserRouter>
