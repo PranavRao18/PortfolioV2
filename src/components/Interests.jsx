@@ -22,8 +22,8 @@ const ServiceCard = ({ index, title, icon, content}) => {
                     className="bg-tertiary rounded-[20px] py-10 px-12 min-h-[280px] flex flex-col items-center justify-center text-justify"
                 >
                     <h3 className="text-white text-[24px] font-bold text-center bg-tertiary">{title}</h3>
-                    <i className={`${icon} fa-5x w-16 h-16 object-contain m-10 bg-tertiary`}></i>
-                    <p className="text-white text-justify bg-tertiary">{content}</p>
+                    <i className={`${icon} fa-5x object-contain m-5 bg-tertiary`}></i>
+                    <p className="text-white text-center sm:text-justify bg-tertiary">{content}</p>
                 </div>
 
             </motion.div>
