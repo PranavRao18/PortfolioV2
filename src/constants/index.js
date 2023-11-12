@@ -7,7 +7,6 @@ import {
     nodejs,
     git,
     figma,
-    carrent,
     threejs,
     CodeHunt,
     Devsprints,
