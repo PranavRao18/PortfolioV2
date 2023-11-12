@@ -15,7 +15,7 @@
 
 ## TECHSTACK - Built with
 
-[![Tech](https://skillicons.dev/icons?i=react,html,css,js,tailwind,three)](https://skillicons.dev)
+[![Tech](https://skillicons.dev/icons?i=react,html,css,js,tailwind,threejs)](https://skillicons.dev)
 
 ReactJS, HTML, CSS, JavaScript, TailwindCSS, ThreeJS
 
