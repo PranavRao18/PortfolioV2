@@ -5,8 +5,8 @@ import { navLinks } from '../constants';
 import { menu, close } from '../assets/assets';
 
 function Navbar() {
-    const [active, setActive] = useState("")
     const [toggle, setToggle] = useState(false);
+
 
     return (
         <nav className={`${styles.paddingX} w-full flex items-center py-10 fixed top-0 z-20 bg-primary`}>
@@ -15,7 +15,6 @@ function Navbar() {
                     to="/"
                     className="flex items-center gap-2"
                     onClick={() => {
-                        setActive("");
                         window.scrollTo(0, 0);
                     }}
                 >
@@ -25,9 +24,7 @@ function Navbar() {
                     {navLinks.map((nav) => (
                         <li
                             key={nav.id}
-                            className={`${active === nav.title ? "text-white" : "text-secondary"
-                                } hover:text-white text-[22px] font-light cursor-pointer`}
-                            onClick={() => setActive(nav.title)}
+                            className={`text-secondary hover:text-white text-[22px] font-light cursor-pointer`}
                         >
                             <a href={`#${nav.id}`}>{nav.title}</a>
                         </li>
@@ -45,11 +42,9 @@ function Navbar() {
                             {navLinks.map((nav) => (
                                 <li
                                     key={nav.id}
-                                    className={`${active === nav.title ? "text-white" : "text-secondary"
-                                        } font-poppins font-medium cursor-pointer text-[16px]`}
+                                    className={`text-secondary font-poppins font-medium cursor-pointer text-[16px]`}
                                     onClick={() => {
                                         setToggle(!toggle)
-                                        setActive(nav.title)
                                     }}
                                 >
                                     <a href={`#${nav.id}`}>{nav.title}</a>

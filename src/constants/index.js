@@ -83,7 +83,7 @@ import {
       icon: tailwind,
     },
     {
-      name: "bootstrap",
+      name: "Bootstrap",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
     },
     {
@@ -108,7 +108,7 @@ import {
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
     },
     {
@@ -128,7 +128,7 @@ import {
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
     },
     {
-      name: "figma",
+      name: "Figma",
       icon: figma,
     },
     {
@@ -147,7 +147,7 @@ import {
       degree: "B.E. in Computer Science",
       place_name: "Bangalore",
       date: "November 2022 - 2026",
-      grade: "CGPA: 9.75 (current)"
+      grade: "CGPA: 9.85 (current)"
     },
     {
       title: "CFAL India",
@@ -172,7 +172,7 @@ import {
       description: "In a 24-hour hackathon, my team of four developed a transportation project for the theme Sustainable Development Goals. The website features user-friendly Login and SignUp pages, including one for drivers. It calculates the shortest route between pickup and drop locations using APIs, offers cost estimates for various transport modes, and allows users to book vehicles. Upon booking, drivers receive notifications and can accept, leading to automatic redirection to the user's location.",
       tags: ["HTML", "CSS", "TailwindCSS", "JavaScript"],
       image: Wheele,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/PranavRao18/Wheel-E",
     },
     {
       name: "GeoCrisis",
@@ -180,7 +180,7 @@ import {
       description: "GeoCrisis stands as a sophisticated and user-friendly real-time mapping application specifically crafted to provide instant, accurate, and visually immersive insights into crises and emergencies occurring worldwide. Leveraging cutting-edge technology, this platform is meticulously designed to serve as a comprehensive and pivotal tool for emergency responders, humanitarian organizations, governmental bodies, and the general public.",
       tags: ["HTML", "CSS", "BootStrap", "JavaScript", "Django"],
       image: Geocrisis,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/satwikkini-01/hack-it-out",
     },
     {
       name: "cli-Mate",
@@ -188,7 +188,7 @@ import {
       description: "Contributed significantly to the development of a cross-platform mobile application using Flutter, ensuring accessibility for both iOS and Android users. Held responsibility for front-end development, focusing on designing user interfaces and implementing core functionalities. Expertly integrated the Flutter framework, Dio for API communication, and Flutter Secure Storage for efficient data persistence. With the help of my teammates, used Django for backend framework.",
       tags: ["Flutter", "Dart"],
       image: Climate,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/me-sanath/HackAI_Hack-230354",
     },
     {
       name: "PortFolio",
@@ -196,7 +196,7 @@ import {
       description: "A curated digital showcase of my work and achievements, reflecting my skills and experiences in a visually engaging manner. It encompasses diverse projects, educational background, and personal interests, allowing visitors to explore my capabilities. This website serves as a valuable tool for potential employers, collaborators, or educational institutions to gain insights into my expertise and achievements. Through its user-friendly design, it offers a clear and structured representation of my talents and provides a convenient means to connect with me.",
       tags: ["ReactJS", "TailwindCSS"],
       image: Portfolio,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/PranavRao18/PortfolioV2",
     },
   ];
 
